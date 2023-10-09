@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>if-3</title>
+  </head>
+  <body>
+
+    <p>Butun son berilgan.Agar berilgan son musbat son bo'ladigan bo'lsa +1ga oshirilsin,agar manfiy bo'lsa 2ga kamaytiring,agarda 0ga teng bo'lsa 10ni o'zlashtirsin</p>
+
+    <script>
+      let a = prompt("a sonni kiriting");
+      a = +a;
+      if (a > 0) {
+        a += 1;
+        document.write(a);
+      }
+      else if(a==0){
+        a+=10;
+        document.write(a);
+      }
+      else{
+        a/=2;
+        document.write(a);
+      }
+    </script>
+
+  </body>
+</html>
